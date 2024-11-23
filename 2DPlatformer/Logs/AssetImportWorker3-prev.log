@@ -1,0 +1,914 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.25f1 (4859ab7b5a49) revision 4741547'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 32530 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\6000.0.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/ЛИЗА/Project/2DPlatformer
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52349
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/ЛИЗА/Project/2DPlatformer
+D:/ЛИЗА/Project/2DPlatformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6268]  Target information:
+
+Player connection [6268]  * "[IP] 192.168.100.3 [Port] 0 [Flags] 2 [Guid] 2567762233 [EditorId] 2567762233 [Version] 1048832 [Id] WindowsEditor(7,WIN-BVFHT5710N9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6268] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
+[Subsystems] Discovering subsystems at path D:/6000.0.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ЛИЗА/Project/2DPlatformer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'D:/6000.0.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.0.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/6000.0.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002041 seconds.
+- Loaded All Assemblies, in  1.381 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 260 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 1942ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (163ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (1088ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1085ms)
+			TypeCache.Refresh (1084ms)
+				TypeCache.ScanAssembly (816ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (321ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.266 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.412 seconds
+Domain Reload Profiling: 1679ms
+	BeginReloadAssembly (1106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (73ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (412ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (260ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (57ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (81.7 KB). Loaded Objects now: 815.
+Memory consumption went from 83.6 MB to 83.5 MB.
+Total: 3.221300 ms (FindLiveObjects: 0.095200 ms CreateObjectMapping: 0.015100 ms MarkObjects: 3.035400 ms  DeleteObjects: 0.072700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17296.598009 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_127.asset
+  artifactKey: Guid(dbb50e141af83bc4a846ee1d408698f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_127.asset using Guid(dbb50e141af83bc4a846ee1d408698f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54176ef567ecc8202110898bd2b9e113') in 0.0963445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_105.asset
+  artifactKey: Guid(5f9c6561bbb4af54e88df328f636912f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_105.asset using Guid(5f9c6561bbb4af54e88df328f636912f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bedb6fdbbcc0829ebdab2d3f92c32329') in 0.0140201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_147.asset
+  artifactKey: Guid(d02a5861478a1a643ada15cce58482e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_147.asset using Guid(d02a5861478a1a643ada15cce58482e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34d40624925813694274143b0add450a') in 0.013856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_123.asset
+  artifactKey: Guid(8658056f4573bb648b013074465e704e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_123.asset using Guid(8658056f4573bb648b013074465e704e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '729b9afcec997ccca1ee265527a8bba5') in 0.0150658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_29.asset
+  artifactKey: Guid(f1ca04a3ded2cea4f838704fabe615f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_29.asset using Guid(f1ca04a3ded2cea4f838704fabe615f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2b96f6c223504ad4faa4f9e1dfd0204') in 0.0120428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_119.asset
+  artifactKey: Guid(14215fd689585774db6e5c8490caf5f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_119.asset using Guid(14215fd689585774db6e5c8490caf5f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6117d0064347a10c2feefb8ac0485309') in 0.015067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_17.asset
+  artifactKey: Guid(297f1c0e5b696c24aa6467e533fafa3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_17.asset using Guid(297f1c0e5b696c24aa6467e533fafa3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2f797d1ce40d0a70186fc829e2bb087') in 0.0140113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_157.asset
+  artifactKey: Guid(1c9417ff3dbb8db4bb75b71a9faa8456) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_157.asset using Guid(1c9417ff3dbb8db4bb75b71a9faa8456) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c79b0bbef1a3be16eea420d2e73d78a') in 0.0143821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_140.asset
+  artifactKey: Guid(91f8c58646f9d7a449b5758650f68159) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_140.asset using Guid(91f8c58646f9d7a449b5758650f68159) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7ea80130641f158f42815c7e0a1a77c') in 0.0132949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_18.asset
+  artifactKey: Guid(cd90ab8d1172bed4ca1d321a20247658) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_18.asset using Guid(cd90ab8d1172bed4ca1d321a20247658) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29173c08d0114de7bbbb9fbb2a44a4a8') in 0.0131588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_100.asset
+  artifactKey: Guid(2a454aacdb15e6e4d822e1573080aa29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_100.asset using Guid(2a454aacdb15e6e4d822e1573080aa29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bef0cac5abdfca04f265e66f02056f1') in 0.0143764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_12.asset
+  artifactKey: Guid(8d9e08e8ab12ab44b9a60981f8767a18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_12.asset using Guid(8d9e08e8ab12ab44b9a60981f8767a18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edf5a7dc25e0a39729a4c1a14b8b9cee') in 0.0166545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_153.asset
+  artifactKey: Guid(1fcbaf1991011ea4aa8e8ab8be1312ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_153.asset using Guid(1fcbaf1991011ea4aa8e8ab8be1312ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39d951a1fce057ee5895302052d4ca3f') in 0.0139421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_144.asset
+  artifactKey: Guid(d2c95e28d3ef7264cb0ac38eee302902) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_144.asset using Guid(d2c95e28d3ef7264cb0ac38eee302902) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec130117472604af55ae931aeba7efe8') in 0.0141961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_148.asset
+  artifactKey: Guid(cbe597b1aee1e0c47b9e9417b7eeb3dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_148.asset using Guid(cbe597b1aee1e0c47b9e9417b7eeb3dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0da64d0e539135b4aa6274a29e53b1fb') in 0.0139324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_108.asset
+  artifactKey: Guid(22f24bf87be4762488fb41a5accc1c3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_108.asset using Guid(22f24bf87be4762488fb41a5accc1c3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d823497f372fa1d58fc31a6885cf08f') in 0.0153703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_22.asset
+  artifactKey: Guid(e538447854b76734d8d2200444c7af97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_22.asset using Guid(e538447854b76734d8d2200444c7af97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '481e33b2d0ab200069cdcd2ba633d0f1') in 0.0133201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_160.asset
+  artifactKey: Guid(f5514aa1f2c8a1a4caf13d087090c291) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_160.asset using Guid(f5514aa1f2c8a1a4caf13d087090c291) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1f2ab3077c1e8759fcb17b771ee1235') in 0.0144627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105334 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_36.asset
+  artifactKey: Guid(22723d127f9731048b0493d79d282705) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_36.asset using Guid(22723d127f9731048b0493d79d282705) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85144166059b0d94cdf721f1f7a7fb39') in 0.0242324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_4.asset
+  artifactKey: Guid(815232d205fb0164b8d09a18de6ec05f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_4.asset using Guid(815232d205fb0164b8d09a18de6ec05f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4b645b635e07e1dd99f36c1bdbf5ecd') in 0.0153555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_57.asset
+  artifactKey: Guid(9e76ebe206cc4c34ebf73b858f0a422b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_57.asset using Guid(9e76ebe206cc4c34ebf73b858f0a422b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4858714cf42d5bb2232593a3421d164f') in 0.012851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_43.asset
+  artifactKey: Guid(794d7b2b00a09104e9bca5b47ee4b966) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_43.asset using Guid(794d7b2b00a09104e9bca5b47ee4b966) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00d2ee812a30e6d3bd2e11943f586d45') in 0.0145468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_97.asset
+  artifactKey: Guid(a338913d01183584484fa303e38c8bcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_97.asset using Guid(a338913d01183584484fa303e38c8bcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73f09dc54b6bcc8394fb0887d81da6db') in 0.0140788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim
+  artifactKey: Guid(c42aa71ad221ea349a7ee113bb662657) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim using Guid(c42aa71ad221ea349a7ee113bb662657) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3db6ede5f393f15427c1b0e85a4f9f87') in 0.019865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_50.asset
+  artifactKey: Guid(48b515398ab860646800e465d3f39168) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_50.asset using Guid(48b515398ab860646800e465d3f39168) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e05d8b54c723763539fa82c83d5bffff') in 0.0151066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim
+  artifactKey: Guid(bc491eda18313944992f294a35d8f6d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim using Guid(bc491eda18313944992f294a35d8f6d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f5b191c858e237feec348b3f2c81828') in 0.0138444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim
+  artifactKey: Guid(0cfe2276959603e40904eecacdfa08fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim using Guid(0cfe2276959603e40904eecacdfa08fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1096e36590426edae51204dc9cf4422c') in 0.0142909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim
+  artifactKey: Guid(5b40edfa3ab173045936606cf6d81c11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim using Guid(5b40edfa3ab173045936606cf6d81c11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd6907cd62c68a04e361acc21ff5087') in 0.0140386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_6.asset
+  artifactKey: Guid(afab6c2c3aed16b4ca3fbfb9ee3a1516) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_6.asset using Guid(afab6c2c3aed16b4ca3fbfb9ee3a1516) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d14154afd088a5b99bec2f45620685f') in 0.0148208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_61.asset
+  artifactKey: Guid(48c6c7aa97f75f9429baf47b41d3e9b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_61.asset using Guid(48c6c7aa97f75f9429baf47b41d3e9b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f828030070e237bbbe731247866ca59') in 0.0147784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_92.asset
+  artifactKey: Guid(eaf2d874996b5b84b9e933031beb89b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_92.asset using Guid(eaf2d874996b5b84b9e933031beb89b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '895c325ce16dc612fd49e024e596b2db') in 0.0128603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_77.asset
+  artifactKey: Guid(aa97b4f9b14261a429bbc07979a607bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_77.asset using Guid(aa97b4f9b14261a429bbc07979a607bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5703526e82bf5ed19f21603ebedb0a7e') in 0.0142689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_46.asset
+  artifactKey: Guid(a9f56e68a92c3cc42bbe5fdb4f2effa3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_46.asset using Guid(a9f56e68a92c3cc42bbe5fdb4f2effa3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4713088bd5befca86d6eae0ef4ffe600') in 0.0147907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_45.asset
+  artifactKey: Guid(d01f463fa13640f4eb2ec0029173791f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_45.asset using Guid(d01f463fa13640f4eb2ec0029173791f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '070614db3af5f0211c49facdbd2694e8') in 0.013398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/TilesPalette/TX Tileset Ground_39.asset
+  artifactKey: Guid(a1edfa5e7fe979c458c95d2473421ddd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/TilesPalette/TX Tileset Ground_39.asset using Guid(a1edfa5e7fe979c458c95d2473421ddd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9770fc8587302186762aa78cf6f72fa3') in 0.0145738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240673 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png
+  artifactKey: Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png using Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3d49404498d463c14e704c8f68db47e') in 0.1260545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Axe.asset
+  artifactKey: Guid(9e6bbe1adb919a546ad09ba7c02efa08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Axe.asset using Guid(9e6bbe1adb919a546ad09ba7c02efa08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9688e57f637983f07de7deca0669521d') in 0.0143862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Hay Fork.prefab
+  artifactKey: Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Hay Fork.prefab using Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '270ccdd154a214f85a93d092111554ca') in 0.0318069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Stone of Recall.prefab
+  artifactKey: Guid(367acab6b4839d34f847dc791e026c4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Stone of Recall.prefab using Guid(367acab6b4839d34f847dc791e026c4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84812fdf39168582905d4674df38d836') in 0.0280716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Sunflower 01.prefab
+  artifactKey: Guid(295bb10ead83a4d44b8a1398a7f16c99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Sunflower 01.prefab using Guid(295bb10ead83a4d44b8a1398a7f16c99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0b7fa1bf8a52726d65d139d31a739ed') in 0.0263392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Pumpkin A.prefab
+  artifactKey: Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Pumpkin A.prefab using Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f11c2264d18d81f0de1170f87d7e723') in 0.0261651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Platform 01 R X2.prefab
+  artifactKey: Guid(948a335f2eab4d944a21f7654ca9e467) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Platform 01 R X2.prefab using Guid(948a335f2eab4d944a21f7654ca9e467) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cb6ad6f1c4323e323bbccf125ff0806') in 0.0250604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Archert Target.asset
+  artifactKey: Guid(049b37947e8bcba4d90354316212cccb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Archert Target.asset using Guid(049b37947e8bcba4d90354316212cccb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '193c4299a80579755edc52713b04980f') in 0.0110599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Arrow.asset
+  artifactKey: Guid(fb786722e3db4074eb32687f0b50f9be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Arrow.asset using Guid(fb786722e3db4074eb32687f0b50f9be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f36921402f9ccb516f076711865bd7a8') in 0.0139058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Grass 04.prefab
+  artifactKey: Guid(406ae01b7bf025d478da7b57dfe1715c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Grass 04.prefab using Guid(406ae01b7bf025d478da7b57dfe1715c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dbeb17b1e935ae7f3d5168b43b99101') in 0.0226211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Chair.prefab
+  artifactKey: Guid(bb67ae3035abce24aa87122c96acac22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Chair.prefab using Guid(bb67ae3035abce24aa87122c96acac22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40d3ef0b6456e61c12c46b9af1e27b27') in 0.0260197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Cauldron.prefab
+  artifactKey: Guid(838a9c74e6cba734faec44d9be3b765e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Cauldron.prefab using Guid(838a9c74e6cba734faec44d9be3b765e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cb0330d5bd52e291516c1da38829fff') in 0.0241406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Barrel.asset
+  artifactKey: Guid(d7011359edaf4d44bb297bda0aec4fa3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Barrel.asset using Guid(d7011359edaf4d44bb297bda0aec4fa3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34c76f4d793c9609330784a02e2fb726') in 0.0146706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Prefab/TX Village Props - Kettle.prefab
+  artifactKey: Guid(5dad1464d7a3246408607532834aec13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/TX Village Props - Kettle.prefab using Guid(5dad1464d7a3246408607532834aec13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32d5c03ce11c847a39c190c180997753') in 0.0266779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Grain Box.prefab
+  artifactKey: Guid(945a24dea7767f846ad8007110a371f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Grain Box.prefab using Guid(945a24dea7767f846ad8007110a371f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5ff4097df4ba8d037e27cdca673e152') in 0.0219169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Wheat 04.prefab
+  artifactKey: Guid(e25962a23b0ae06459d988ce85f4476e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Wheat 04.prefab using Guid(e25962a23b0ae06459d988ce85f4476e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5676756592c8f2d8cc89f4d94c360099') in 0.0232076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Crate Large.prefab
+  artifactKey: Guid(78538c3cab4610f4d914a10e71bdf46b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Crate Large.prefab using Guid(78538c3cab4610f4d914a10e71bdf46b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb1efddcc468f4fbe4b6590a198e648f') in 0.0239735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Anvil 01.prefab
+  artifactKey: Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Anvil 01.prefab using Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e73b60fa5ddca6fc53e602ff9bb5ca9') in 0.0200836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Ladder 02 Pillar C.asset
+  artifactKey: Guid(887c10cdf5f295945b49624b63939ca4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Ladder 02 Pillar C.asset using Guid(887c10cdf5f295945b49624b63939ca4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ada205dc5c85678962f86640bf90f02') in 0.014633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Platform R 02.asset
+  artifactKey: Guid(474045691d38e8e40a1eb4f323bd5532) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Platform R 02.asset using Guid(474045691d38e8e40a1eb4f323bd5532) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5241a137c690c2d16f169c090b1a9a12') in 0.0143506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Hay Pile.asset
+  artifactKey: Guid(96d631763e2948f4ca251a43dd679924) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Hay Pile.asset using Guid(96d631763e2948f4ca251a43dd679924) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ad7b940f57c1b9a23ee5dba679915cc') in 0.0142914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Chair.asset
+  artifactKey: Guid(7c350d20b4e3725429e5630901c78b82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Chair.asset using Guid(7c350d20b4e3725429e5630901c78b82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3ac666b9865648ddbbf25985da166d6') in 0.01513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Elevator  Pully.asset
+  artifactKey: Guid(f3743cb3196d3284396903f2541f8c1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Elevator  Pully.asset using Guid(f3743cb3196d3284396903f2541f8c1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60be8a9969053d0eddda1c8d3ff57873') in 0.011614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Gunny Bag 02.asset
+  artifactKey: Guid(5ddfaca3fd762504ca78011014309cd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Gunny Bag 02.asset using Guid(5ddfaca3fd762504ca78011014309cd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '488d71cbb9fec52296f2b441d8d94b65') in 0.0145902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Fence 01 Nail.asset
+  artifactKey: Guid(97c87acbaf291924da7dd1b130bb9433) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Fence 01 Nail.asset using Guid(97c87acbaf291924da7dd1b130bb9433) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '204efd6cd51a3f2f204c436dc4fe5303') in 0.014198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Gravestone 01.asset
+  artifactKey: Guid(e6e16a10da6e2fa4990191c093503b87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Gravestone 01.asset using Guid(e6e16a10da6e2fa4990191c093503b87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0eea6cb6518c3f51e8bb4de68f63314d') in 0.0149355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Chest Iron.asset
+  artifactKey: Guid(2de00db5ca89942488f04b29fda3d741) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Chest Iron.asset using Guid(2de00db5ca89942488f04b29fda3d741) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c033e6dc64d5eb34367b6fb09a6c92a') in 0.0147413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Bush 03.asset
+  artifactKey: Guid(06665b1ac2e016c40b07aaf16ee0edc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Bush 03.asset using Guid(06665b1ac2e016c40b07aaf16ee0edc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5142f051c005ee5a147d6c37815426ba') in 0.0133598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Platform L 01.asset
+  artifactKey: Guid(d7d43b9336b2bd648a07d0791a93876e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Platform L 01.asset using Guid(d7d43b9336b2bd648a07d0791a93876e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d019d71b194ad10f6673a44e64d7dd6') in 0.0144252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Fence 01 Rail 03.asset
+  artifactKey: Guid(5d86f21d2b24efc4cba6ab16f4419c83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Fence 01 Rail 03.asset using Guid(5d86f21d2b24efc4cba6ab16f4419c83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8404d1119044c2a9c7bd23c9e2b7f1bb') in 0.0144453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Cloth 02.asset
+  artifactKey: Guid(d36288fe3c51e274c9f6d941e8e4c406) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Cloth 02.asset using Guid(d36288fe3c51e274c9f6d941e8e4c406) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e03011bd9d89dcac1c9a8e0af9d7ef9') in 0.0141483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Basket.asset
+  artifactKey: Guid(8160e29bfdbb4234b8ac7cf16186bc90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Basket.asset using Guid(8160e29bfdbb4234b8ac7cf16186bc90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34b1a44701d039999abc15463642d167') in 0.0156384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Cloth 06.asset
+  artifactKey: Guid(36cbfbc8840110349a4bc049671d25e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Cloth 06.asset using Guid(36cbfbc8840110349a4bc049671d25e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dc4338a91a05040a20613e3fe777a35') in 0.0151164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Fire Bowl.asset
+  artifactKey: Guid(63845a87064cfd94ca6a1cdbef594d1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Fire Bowl.asset using Guid(63845a87064cfd94ca6a1cdbef594d1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd320b692d92b8618591d2d4f3b2a82b') in 0.0133934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Hanging Bag.asset
+  artifactKey: Guid(127dfdbd3fea8df49bdf7ec60c683db3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Hanging Bag.asset using Guid(127dfdbd3fea8df49bdf7ec60c683db3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1e62d6148a7c26e3a68c4db905882dc') in 0.0144985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Elevator.prefab
+  artifactKey: Guid(4c6f7f680d35ecb45bd66603fd0f3516) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Elevator.prefab using Guid(4c6f7f680d35ecb45bd66603fd0f3516) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '627fb478831661a3b96f0061bdb8e4e5') in 0.0200787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Bread 01.prefab
+  artifactKey: Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Bread 01.prefab using Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4af1c6fccc103fc5a679c3698f9938ac') in 0.0222507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Wood Log 01.prefab
+  artifactKey: Guid(86d38be4937d1c344b9c7f22912685eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Wood Log 01.prefab using Guid(86d38be4937d1c344b9c7f22912685eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55d8496fb9c1ae1588f9904d059c9667') in 0.0238356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Jump Platform 01.asset
+  artifactKey: Guid(bee531fbfb44f2c409723927707dc3f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Jump Platform 01.asset using Guid(bee531fbfb44f2c409723927707dc3f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65a938bb1f68691811d466c20db4588e') in 0.0118005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Obstacle Platform Large 02.prefab
+  artifactKey: Guid(5a4d983acd5452743930759213bf8190) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Obstacle Platform Large 02.prefab using Guid(5a4d983acd5452743930759213bf8190) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '853c3c47fec71ca5d5b6e518e69190ca') in 0.0249404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Fence 01 Pillar 02.asset
+  artifactKey: Guid(67c37d70eca4f584b808e9ad797d7769) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Fence 01 Pillar 02.asset using Guid(67c37d70eca4f584b808e9ad797d7769) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18d551c5cfc538b9ca382868a5007b25') in 0.0175608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Cainos/Tile/Prefab/PF Village Props - Fence B.prefab
+  artifactKey: Guid(366bd147d3b568843ab9463d10b7fb98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Prefab/PF Village Props - Fence B.prefab using Guid(366bd147d3b568843ab9463d10b7fb98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad4638017ea0f58368cb07798ade57c2') in 0.0241545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102776 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Road Lamp Pillar.asset
+  artifactKey: Guid(d72a60144de61814c8c544d9bfd3c8aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Road Lamp Pillar.asset using Guid(d72a60144de61814c8c544d9bfd3c8aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '206f5023e0f460ad972a0f0633115c07') in 0.0252005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Road Sign 01.asset
+  artifactKey: Guid(532e96f201988e0469d13746e33210c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Road Sign 01.asset using Guid(532e96f201988e0469d13746e33210c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '828a4b1aa8bc9a0e9f8263bb0ea687ae') in 0.0146279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Spike Ball.asset
+  artifactKey: Guid(351ad67c84e065b46bc1b09d023a10f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Spike Ball.asset using Guid(351ad67c84e065b46bc1b09d023a10f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14e6d24de999ef54be72060e7550df64') in 0.0131835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Wheat 01.asset
+  artifactKey: Guid(4062b60550946ab44a4bedb75d642c7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Wheat 01.asset using Guid(4062b60550946ab44a4bedb75d642c7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b926da9b2858295f96112c9a4bc7826') in 0.0149902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Sunflower 02.asset
+  artifactKey: Guid(f99a46b9c2e50bf4a9d8eaf7bd7dbb31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Sunflower 02.asset using Guid(f99a46b9c2e50bf4a9d8eaf7bd7dbb31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '870dfc1f49f9fcefe291b4179d73e3a0') in 0.0140436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Statue.asset
+  artifactKey: Guid(10179299e4bf86e4383bd4d85fde1134) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Statue.asset using Guid(10179299e4bf86e4383bd4d85fde1134) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80ba03aa08ae5a86a5a6032dcc05690d') in 0.0143377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Table.asset
+  artifactKey: Guid(a3effad65aa85224a948671e7a9373c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Table.asset using Guid(a3effad65aa85224a948671e7a9373c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0949fd41446103f38b48402e28c1ca0') in 0.0142608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Well.asset
+  artifactKey: Guid(e88e844555db95e4ea2e41c88deb135c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Well.asset using Guid(e88e844555db95e4ea2e41c88deb135c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c3253e3156849b886c4e70e512b0c19') in 0.0145922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Rock 03.asset
+  artifactKey: Guid(c14dbdfa22db49743873f9102c3d2ab3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Rock 03.asset using Guid(c14dbdfa22db49743873f9102c3d2ab3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ae1462f65b0952efe65bd4ca49b01f8') in 0.0143722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - White Bottle.asset
+  artifactKey: Guid(dd4b6dfcb01243e4cac79e14d5395841) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - White Bottle.asset using Guid(dd4b6dfcb01243e4cac79e14d5395841) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8095a2a3d97fddffb83f3a823d9a6456') in 0.0141707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Wooden Bridge Part 04.asset
+  artifactKey: Guid(3df0abdae888340488f8fbd854099e0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Wooden Bridge Part 04.asset using Guid(3df0abdae888340488f8fbd854099e0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa6a80e2c35f9285406d71d288e41470') in 0.0139119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Slope Platform 01.asset
+  artifactKey: Guid(27fbb51ea4b07604ea59fdc53ae8faf2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Slope Platform 01.asset using Guid(27fbb51ea4b07604ea59fdc53ae8faf2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f8e50ef17d5a839a645a2aa14662d02') in 0.0140256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cainos/Tile/Texture/TX Village Props - Stump.asset
+  artifactKey: Guid(dbe710ba400bb1b4bbf0de0f3e116fda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cainos/Tile/Texture/TX Village Props - Stump.asset using Guid(dbe710ba400bb1b4bbf0de0f3e116fda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b75f6a939eec37b59b39d7f839db6fc1') in 0.0120047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
