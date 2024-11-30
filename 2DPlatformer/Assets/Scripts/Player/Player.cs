@@ -4,7 +4,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private float _speed = 3f; 
-    [SerializeField] private float _jumpForce = 5f;
+    [SerializeField] private float _jumpForce = 10f;
     private bool _groundCheck;
     private Vector3 _playerMovementState;
     private SpriteRenderer _sprite;
@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
    void FixedUpdate()
    {
        _groundCheck= Physics2D.Raycast(transform.position, Vector2.down, _groundCheckRadius, _mask);
+       
        Debug.DrawRay(transform.position, Vector2.down * _groundCheckRadius, Color.red); 
        
    }
@@ -54,6 +55,7 @@ public class Player : MonoBehaviour
 
    internal void Jump()
    {
+           
        _jumpsCount--;
        if (_jumpsCount > 0)
        {
