@@ -1,5 +1,6 @@
-using UnityEditor.Experimental.GraphView;
+
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -17,6 +18,11 @@ public class Player : MonoBehaviour
     [SerializeField] private float _groundCheckRadius = 0.1f;
     private Animator _animator;
     
+    public int health = 3;
+   
+    public Image[] hearts;
+    public Sprite[] fullHeart;
+    public Sprite[] emptyHeart;
     
    public static Player Instance;
 
