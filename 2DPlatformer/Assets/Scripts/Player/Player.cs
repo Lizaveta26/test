@@ -18,11 +18,12 @@ public class Player : MonoBehaviour
     [SerializeField] private float _groundCheckRadius = 0.1f;
     private Animator _animator;
     
-    public int health = 3;
+    public float health;
+    public int numOfHearts;
    
     public Image[] hearts;
-    public Sprite[] fullHeart;
-    public Sprite[] emptyHeart;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
     
    public static Player Instance;
 
@@ -52,6 +53,33 @@ public class Player : MonoBehaviour
 
    void FixedUpdate()
    {
+       if (health > numOfHearts)
+       {
+           health = numOfHearts;
+       }
+
+       for (int i = 0; i < hearts.Length; i++)
+       {
+           if (i < Mathf.RoundToInt(health))
+           {
+               hearts[i].sprite = fullHeart;
+           }
+           health += Time.deltaTime * health;
+           {
+               hearts[i].sprite = emptyHeart;
+           }
+
+           if (i < numOfHearts)
+           {
+               hearts[i].enabled = true;
+           }
+           else
+           {
+               hearts[i].enabled = false;
+           }
+       }
+       
+       
        _groundCheck= Physics2D.Raycast(transform.position, Vector2.down, _groundCheckRadius, _mask);
        if (_groundCheck != null)
        {

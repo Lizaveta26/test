@@ -9,6 +9,8 @@ public class Patroler : MonoBehaviour
     Transform player;
     public float stoppingDistance;
     private bool facingRight = true;
+    public int health = 3;
+    
     
     bool chill = false;
     bool angry  = false;
@@ -19,8 +21,13 @@ public class Patroler : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
+    
     void Update()
     {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
        
         if (Vector2.Distance(transform.position, point.position) < positionOfPatrol && angry  == false)
         {
@@ -55,6 +62,12 @@ public class Patroler : MonoBehaviour
         
     }
 
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+    }
+    
+    
     void Chill()
     {
         if (transform.position.x > point.position.x + positionOfPatrol)
