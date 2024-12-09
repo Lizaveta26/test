@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -18,19 +19,25 @@ public class Player : MonoBehaviour
     [SerializeField] private float _groundCheckRadius = 0.1f;
     private Animator _animator;
     
-    public float health;
-    public int numOfHearts;
+    public static bool isGameOver;
    
-    public Image[] hearts;
-    public Sprite fullHeart;
-    public Sprite emptyHeart;
     
-   public static Player Instance;
+    public GameObject gameOverScreen;
+    public static Vector2 lastCheckPointPos = new Vector2(-3, 0);
+    public static int numberOfGems;
+    public TextMeshProUGUI gemsText;
+    
+    public static Player Instance;
 
    private void Awake()
    {
        Instance = this;
+       
+       numberOfGems = PlayerPrefs.GetInt("numberOfGems", 0);
+       isGameOver = false;
+       GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
    }
+  
    
    private void Start()
    { 
@@ -49,37 +56,16 @@ public class Player : MonoBehaviour
 
        DrawGismos();
        VerticalSpeed();
+       
+       gemsText.text = "Gems: " + numberOfGems;
+       if (isGameOver)
+       {
+           gameOverScreen.SetActive(true);
+       }
    }
 
    void FixedUpdate()
-   {
-       if (health > numOfHearts)
-       {
-           health = numOfHearts;
-       }
-
-       for (int i = 0; i < hearts.Length; i++)
-       {
-           if (i < Mathf.RoundToInt(health))
-           {
-               hearts[i].sprite = fullHeart;
-           }
-           health += Time.deltaTime * health;
-           {
-               hearts[i].sprite = emptyHeart;
-           }
-
-           if (i < numOfHearts)
-           {
-               hearts[i].enabled = true;
-           }
-           else
-           {
-               hearts[i].enabled = false;
-           }
-       }
-       
-       
+   { 
        _groundCheck= Physics2D.Raycast(transform.position, Vector2.down, _groundCheckRadius, _mask);
        if (_groundCheck != null)
        {

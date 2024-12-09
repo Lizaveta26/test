@@ -1,16 +1,15 @@
 using UnityEngine;
-using System;
+using System.Collections;
+using System.Collections.Generic;
 
 public class GemTrigger : MonoBehaviour
 {
-   public static Action<bool> OnGemDoubleJump;
-   
    private void OnTriggerEnter2D(Collider2D collision)
    {
-      if (collision.tag == "Player")
+      if (collision.transform.tag == "Player")
       {
-         OnGemDoubleJump?.Invoke(true);
-         gameObject.SetActive(false);
+         Player.lastCheckPointPos = transform.position;
+         GetComponent<SpriteRenderer>().color = Color.white;
       }
    }
 }
