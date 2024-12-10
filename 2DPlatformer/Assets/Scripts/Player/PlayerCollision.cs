@@ -2,15 +2,17 @@ using UnityEngine;
 using System.Collections;
 
 public class PlayerCollision : MonoBehaviour
+
 {
    private void OnCollisionEnter2D(Collision2D collision)
+   
    {
       if (collision.transform.tag == "Enemy")
       {
          HealthManager.health--;
          if (HealthManager.health <= 0)
          {
-            Player.isGameOver = true;
+            PlayerManager.isGameOver = true;
             gameObject.SetActive(false);
          }
          else

@@ -18,11 +18,6 @@ public class Player : MonoBehaviour
     private Ray _ray;
     [SerializeField] private float _groundCheckRadius = 0.1f;
     private Animator _animator;
-    
-    public static bool isGameOver;
-   
-    
-    public GameObject gameOverScreen;
     public static Vector2 lastCheckPointPos = new Vector2(-3, 0);
     public static int numberOfGems;
     public TextMeshProUGUI gemsText;
@@ -34,7 +29,7 @@ public class Player : MonoBehaviour
        Instance = this;
        
        numberOfGems = PlayerPrefs.GetInt("numberOfGems", 0);
-       isGameOver = false;
+       
        GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
    }
   
@@ -58,10 +53,7 @@ public class Player : MonoBehaviour
        VerticalSpeed();
        
        gemsText.text = "Gems: " + numberOfGems;
-       if (isGameOver)
-       {
-           gameOverScreen.SetActive(true);
-       }
+     
    }
 
    void FixedUpdate()
